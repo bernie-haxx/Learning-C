@@ -60,5 +60,11 @@ int main(int argc, char const *argv[])
 	\0 - NULL character
 	*/
 	printf("\"Wazzzgoood\"\n%s\n","homie" );
+	/*
+	Enumerations
+	The keyword enum is used to define enumeration types.For example
+	*/
+	enum color {yellow, green, black, white};
+	
 	return 0;
 }
