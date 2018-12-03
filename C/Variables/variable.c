@@ -21,6 +21,44 @@ int main(int argc, char const *argv[])
 	ch = '1';
 	// constant
 	const double PI = 3.14;
-	printf("%s\n", "This is done my niggs/n" );
+	printf("%s\n", "This is done my niggs\n" );
+	/*
+	Integers
+	This is a numeric constant without any fractional or exponential part.
+	There are three types of integer constants in C:
+	-decimal constant(base 10)
+	-octal constant(base 8)
+	-hexadecimal(base 16)
+
+	For example 
+	Decimal constants: 0, -9, 22 etc
+	Octal constants: 021, 077, 033 etc
+	Hexadecimal constants: 0x7f, 0x2a, 0x521 etc
+	*/
+	/*
+	Floating Point Constants
+
+	A floating-Point constant is a numeric constant that has either a fractiona; form or an exponent form for example:
+	-2.0
+	0.00002234
+	-0.22E-5
+	*/
+
+	/*
+	Escape Sequences
+	These are special characters with special meaning
+	\b - Back Space
+	\f - Form Feed
+	\n - newline
+	\r - return 
+	\t - Horizontal tab
+	\v - Vertical Tab
+	\\ - Back Slash
+	\' - Single Quotation
+	\" - Double Quotation marks
+	\? - Question Mark
+	\0 - NULL character
+	*/
+	printf("\"Wazzzgoood\"\n%s\n","homie" );
 	return 0;
 }
