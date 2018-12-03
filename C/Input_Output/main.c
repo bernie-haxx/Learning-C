@@ -14,6 +14,9 @@ int main(int argc, char const *argv[])
 	printf("Enter a character: ");
 	scanf("%c",&chr);
 	printf("You entered my %c\n", chr); 
-	return 0;
+	
 
+	int red = 69;
+	printf("Character having ASCII value %d is %c\n", red,red);
+    return 0;
 }
