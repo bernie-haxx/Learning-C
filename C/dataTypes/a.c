@@ -15,6 +15,16 @@ Qualifiers alter the meaning of base data types to yield a new data type.
 Size Qualifiers
 There are two size qualifiers: Long and short.
 
+Sign Qualifiers
+Integers and floating point variables can hold both negative and positive values.
+However, if a variable needs to hold positive values only, `unsigned ` data types are used.
+There is another value called signed since a variable is signed by default.
+
+Constant Qualifiers
+An identifier can be declared as a constant. To do so const keyword is used.
+
+Volatile Qualifiers
+A variable should be declared volatile whenever its value can be changes by some external sources outside the program. Keyword volatile is used to creating volatile variables
 */
 #include <stdio.h>
 int main(int argc, char const *argv[])
@@ -34,6 +44,12 @@ int main(int argc, char const *argv[])
 	long double i;
 	//shortest number
 	short int z;
+	// variable holding positive value only
+	unsigned int positiveInteger;
+	// Constant Qualifier
+	const int cost = 20;
+	// Volatile(can be changed from an external source)
+	volatile int red = 22;
 	printf("%s\n","Done compiling \n" );
 	return 0;
 }
